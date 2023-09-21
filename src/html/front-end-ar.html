@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>عالم البرمجة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="../css/style.css" />
+    <div>
+      <link href="../css/front-end-ar.css" rel="stylesheet" />
+
+      <div class="front-end-ar-container">
+        <div class="front-end-ar-front-end-ar">
+          <img
+            alt="Rectangle121156"
+            src="../../bin/rectangle121156-zjxm-400h.png"
+            class="front-end-ar-rectangle12"
+          />
+          <div class="front-end-ar-top-menu">
+            <span class="front-end-ar-text">
+              <span>
+                <span>تطوير الواجهة الأمامية</span>
+                <br />
+                <span></span>
+              </span>
+            </span>
+            <div class="front-end-ar-learn">
+              <span class="front-end-ar-text005">
+                <span>سوف يتعلم الطالب</span>
+              </span>
+              <span class="front-end-ar-text007"><span>HTML</span></span>
+              <span class="front-end-ar-text009"><span>JS</span></span>
+              <span class="front-end-ar-text011"><span>App js</span></span>
+              <span class="front-end-ar-text013"><span>React</span></span>
+              <span class="front-end-ar-text015"><span>CSS</span></span>
+              <span class="front-end-ar-text017"><span>Git</span></span>
+            </div>
+            <div class="front-end-ar-have">
+              <span class="front-end-ar-text019">
+                <span>الطالب سوف يمتلك</span>
+              </span>
+              <span class="front-end-ar-text021">
+                <span>اجتماعات افتراضية أسبوعية</span>
+              </span>
+              <span class="front-end-ar-text023">
+                <span>مشاريع مع فريق</span>
+              </span>
+              <span class="front-end-ar-text025">
+                <span>مشاريع الفردية</span>
+              </span>
+              <span class="front-end-ar-text027"><span>تمارين</span></span>
+              <span class="front-end-ar-text029">
+                <span>ورش عمل مشتركة</span>
+              </span>
+            </div>
+            <div class="front-end-ar-group2">
+              <span class="front-end-ar-text031">
+                <span>
+                  <span>عملية التسجيل</span>
+                  <br />
+                  <span></span>
+                </span>
+              </span>
+              <span class="front-end-ar-text036">أرسل طلبك</span>
+              <span class="front-end-ar-text037">سوف نقوم بمراجعة طلبك</span>
+              <span class="front-end-ar-text038">
+                في حالة القبول سيتم دعوتك للتسجيل
+              </span>
+            </div>
+          </div>
+          <div class="front-end-ar-boxes">
+            <div class="front-end-ar-box1">
+              <span class="front-end-ar-text039">
+                <span>الخطة الأساسية</span>
+              </span>
+              <img
+                alt="Ellipse21157"
+                src="../../bin/ellipse21157-0xjb-200h.png"
+                class="front-end-ar-ellipse2"
+              />
+              <span class="front-end-ar-text041">
+                <span>
+                  <span>$55</span>
+                  <br />
+                  <span>/شهر</span>
+                </span>
+              </span>
+              <span class="front-end-ar-text046"><span>لشهر 1</span></span>
+              <img
+                alt="Rectangle251157"
+                src="../../bin/rectangle251157-3x1-200h.png"
+                class="front-end-ar-rectangle25"
+              />
+              <span class="front-end-ar-text048"><span>سجل</span></span>
+            </div>
+            <div class="front-end-ar-box2">
+              <span class="front-end-ar-text050">
+                <span>الخطة المتوسطة</span>
+              </span>
+              <img
+                alt="Ellipse21157"
+                src="../../bin/ellipse21157-bn2g-200h.png"
+                class="front-end-ar-ellipse21"
+              />
+              <span class="front-end-ar-text052">
+                <span>
+                  <span>$50</span>
+                  <br />
+                  <span>/شهر</span>
+                </span>
+              </span>
+              <span class="front-end-ar-text057"><span>شهرين</span></span>
+              <img
+                alt="Rectangle251157"
+                src="../../bin/rectangle251157-7169-200h.png"
+                class="front-end-ar-rectangle251"
+              />
+              <span class="front-end-ar-text059"><span>سجل</span></span>
+            </div>
+            <div class="front-end-ar-box3">
+              <span class="front-end-ar-text061"><span>خطة متقدمة</span></span>
+              <img
+                alt="Ellipse21157"
+                src="../../bin/ellipse21157-bh4e-200h.png"
+                class="front-end-ar-ellipse22"
+              />
+              <span class="front-end-ar-text063">
+                <span>
+                  <span>$40</span>
+                  <br />
+                  <span>/شهر</span>
+                </span>
+              </span>
+              <span class="front-end-ar-text068"><span>3 شهور</span></span>
+              <img
+                alt="Rectangle251157"
+                src="../../bin/rectangle251157-jw99-200h.png"
+                class="front-end-ar-rectangle252"
+              />
+              <span class="front-end-ar-text070"><span>سجل</span></span>
+            </div>
+          </div>
+          <div class="front-end-ar-footer">
+            <div class="front-end-ar-down-menu">
+              <div class="front-end-ar-box11">
+                <span class="front-end-ar-text072">
+                  <span>روابط سريعة</span>
+                </span>
+                <img
+                  alt="Line11203"
+                  src="../../bin/line11203-siji.svg"
+                  class="front-end-ar-line1"
+                />
+                <a href="home-page-ar.html" class="front-end-ar-text074">
+                  <span>الصفحة الرئيسية</span>
+                </a>
+                <span class="front-end-ar-text076"><span>معسكرات</span></span>
+                <span class="front-end-ar-text078"><span>العاب</span></span>
+                <a href="careers-ar.html" class="front-end-ar-text080">
+                  <span>وظائف</span>
+                </a>
+              </div>
+              <div class="front-end-ar-box21">
+                <img
+                  alt="Line21203"
+                  src="../../bin/line21203-17cg.svg"
+                  class="front-end-ar-line2"
+                />
+                <span class="front-end-ar-text082"><span>تصفح</span></span>
+                <a href="aboutus-ar.html" class="front-end-ar-text084">
+                  <span>معلومات</span>
+                </a>
+                <a href="support-ar.html" class="front-end-ar-text086">
+                  <span>الدعم</span>
+                </a>
+                <a href="our-partners-ar.html" class="front-end-ar-text088">
+                  <span>شركائنا</span>
+                </a>
+              </div>
+              <span class="front-end-ar-text090">
+                <span>© 2023 جميع الحقوق محفوظة. عالم البرمجة</span>
+              </span>
+              <div class="front-end-ar-box31">
+                <span class="front-end-ar-text092">
+                  <span>تواصل معنا</span>
+                </span>
+                <img
+                  alt="Line21203"
+                  src="../../bin/line21203-z1mu.svg"
+                  class="front-end-ar-line21"
+                />
+                <span class="front-end-ar-text094"><span>انستقرام</span></span>
+                <span class="front-end-ar-text096"><span>تويتر</span></span>
+                <span class="front-end-ar-text098"><span>ديسكورد</span></span>
+                <span class="front-end-ar-text100"><span>لينكدين</span></span>
+              </div>
+              <div class="front-end-ar-newsletter">
+                <input type="text" class="front-end-ar-textinput input" />
+                <span class="front-end-ar-text102">
+                  <span>اشترك في صحيفتنا الإخبارية</span>
+                </span>
+                <img
+                  alt="Rectangle111203"
+                  src="../../bin/rectangle111203-iu-200h.png"
+                  class="front-end-ar-rectangle11"
+                />
+                <span class="front-end-ar-text104"><span>اشترك</span></span>
+              </div>
+            </div>
+          </div>
+          <div class="front-end-ar-main-menu">
+            <div class="front-end-ar-center-menu">
+              <span class="front-end-ar-text106">
+                <span>
+                  <span>المعسكرات التدريبية</span>
+                  <br />
+                  <span></span>
+                </span>
+              </span>
+              <span class="front-end-ar-text111"><span>العاب</span></span>
+              <a href="aboutus-ar.html" class="front-end-ar-text113">
+                <span>معلومات</span>
+              </a>
+              <a href="support-ar.html" class="front-end-ar-text115">
+                <span>الدعم</span>
+              </a>
+              <a href="careers-ar.html" class="front-end-ar-text117">
+                <span>وظائف</span>
+              </a>
+              <a href="our-partners-ar.html" class="front-end-ar-text119">
+                <span>شركائنا</span>
+              </a>
+              <span class="front-end-ar-text121"><span>اللغة</span></span>
+            </div>
+            <div class="front-end-ar-login">
+              <a href="login-ar.html" class="front-end-ar-text123">
+                <span>دخول</span>
+              </a>
+            </div>
+            <a href="home-page-ar.html" class="front-end-ar-text125">
+              <span>عالم البرمجة</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
