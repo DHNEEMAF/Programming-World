@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="english">
+  <head>
+    <title>عالم البرمجة</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&amp;display=swap"
+      data-tag="font"
+    />
+  </head>
+  <body>
+    <link rel="stylesheet" href="../css/style.css" />
+    <div>
+      <link href="../css/home-page-ar.css" rel="stylesheet" />
+
+      <div class="home-page-ar-container">
+        <div class="home-page-ar-home-page-ar">
+          <img
+            alt="Rectangle11143"
+            src="../../bin/rectangle11143-ydon-400h.png"
+            class="home-page-ar-rectangle1"
+          />
+          <div class="home-page-ar-part1">
+            <span class="home-page-ar-text">
+              <span>المعسكرات التدريبية في عالم البرمجة</span>
+            </span>
+            <div class="home-page-ar-box1">
+              <img
+                alt="Box11143"
+                src="../../bin/box11143-3x8x-300h.png"
+                class="home-page-ar-box11"
+              />
+              <span class="home-page-ar-text002"><span>للمزيد</span></span>
+              <span class="home-page-ar-text004"><span>تطوير الويب</span></span>
+            </div>
+            <div class="home-page-ar-box2">
+              <img
+                alt="Box21143"
+                src="../../bin/box21143-1gws-300h.png"
+                class="home-page-ar-box21"
+              />
+              <span class="home-page-ar-text006">
+                <span>الواجهة الامامية</span>
+              </span>
+              <a href="front-end-ar.html" class="home-page-ar-text008">
+                <span>للمزيد</span>
+              </a>
+            </div>
+            <div class="home-page-ar-box3">
+              <img
+                alt="Box31143"
+                src="../../bin/box31143-hpnf-300h.png"
+                class="home-page-ar-box31"
+              />
+              <span class="home-page-ar-text010">
+                <span>النهاية الخلفية</span>
+              </span>
+              <a href="back-end-ar.html" class="home-page-ar-text012">
+                <span>للمزيد</span>
+              </a>
+            </div>
+            <div class="home-page-ar-box4">
+              <img
+                alt="Box41143"
+                src="../../bin/box41143-hymj-300h.png"
+                class="home-page-ar-box41"
+              />
+              <span class="home-page-ar-text014">
+                <span>هندسة البرمجيات</span>
+              </span>
+              <a
+                href="software-engineering-ar.html"
+                class="home-page-ar-text016"
+              >
+                <span>للمزيد</span>
+              </a>
+            </div>
+            <div class="home-page-ar-box5">
+              <img
+                alt="Box51143"
+                src="../../bin/box51143-jbgf-300h.png"
+                class="home-page-ar-box51"
+              />
+              <span class="home-page-ar-text018">
+                <span>علم البيانات</span>
+              </span>
+              <span class="home-page-ar-text020"><span>للمزيد</span></span>
+            </div>
+            <div class="home-page-ar-box6">
+              <img
+                alt="Box61143"
+                src="../../bin/box61143-lktw-300h.png"
+                class="home-page-ar-box61"
+              />
+              <span class="home-page-ar-text022">
+                <span>التعلم الالي</span>
+              </span>
+              <span class="home-page-ar-text024"><span>للمزيد</span></span>
+            </div>
+          </div>
+          <div class="home-page-ar-center-menu">
+            <div class="home-page-ar-games">
+              <span class="home-page-ar-text026">
+                <span class="home-page-ar-text027">
+                  <span>ألعابنا</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span></span>
+                </span>
+                <span>
+                  <span>
+                    نحن فخورون بأن نكون أول شركة سعودية عالمية تقوم ببناء
+                    الألعاب الإلكترونية لجميع المنصات. تم تصميم ألعابنا لتأسر
+                    انتباه الجمهور من خلال توفير قصص جذابة وأسلوب لعب مثير
+                    ومرئيات غامرة. نحن نسعى جاهدين لخلق أفضل تجارب الألعاب
+                    للاعبينا والابتكار المستمر للبقاء في المقدمة في هذه الصناعة.
+                  </span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span>
+                    نحن نؤمن أنه من خلال تخطي الحدود والاستثمار في التكنولوجيا،
+                    يمكننا خلق تجارب فريدة حقًا ولا تُنسى. نحن ملتزمون بخلق أفضل
+                    التجارب الممكنة للاعبينا ونأمل أن نجلب الفرح والترفيه
+                    لجماهيرنا.
+                  </span>
+                </span>
+              </span>
+              <img
+                alt="Rectangle31143"
+                src="../../bin/rectangle31143-4l6h-300w.png"
+                class="home-page-ar-rectangle3"
+              />
+              <img
+                alt="Rectangle41143"
+                src="../../bin/rectangle41143-evrw-200h.png"
+                class="home-page-ar-rectangle4"
+              />
+              <span class="home-page-ar-text039"><span>إكتشف أكثر</span></span>
+            </div>
+            <div class="home-page-ar-education">
+              <img
+                alt="Rectangle61143"
+                src="../../bin/rectangle61143-fsjn-200h.png"
+                class="home-page-ar-rectangle6"
+              />
+              <span class="home-page-ar-text041">
+                <span class="home-page-ar-text042">
+                  <span>تعليمنا</span>
+                  <br />
+                  <span></span>
+                  <br />
+                  <span></span>
+                </span>
+                <span>
+                  تعليمنا يختلف عن الباقي، لأنه يعتمد كليا على الطالب. لا توجد
+                  كتب أو مقاطع فيديو يتعلم فيها الطلاب من خلال تنفيذ المشاريع
+                  ويتم إنشاء دوراتنا على يد خبراء. علاوة على ذلك، يمكن للطلاب
+                  التعلم في أي وقت وفي أي مكان في العالم دون حضور الفصول
+                  الدراسية. يتيح ذلك للطلاب التعلم بالسرعة التي تناسبهم، مع
+                  إمكانية الوصول إلى نفس جودة التعليم كما لو كانوا يحضرون الفصول
+                  الدراسية شخصيًا. بالإضافة إلى ذلك، دوراتنا تفاعلية وجذابة،
+                  وتوفر للطلاب أفضل تجربة تعليمية ممكنة.
+                </span>
+              </span>
+              <img
+                alt="Rectangle51143"
+                src="../../bin/rectangle51143-nwv-300w.png"
+                class="home-page-ar-rectangle5"
+              />
+              <span class="home-page-ar-text049"><span>إكتشف أكثر</span></span>
+            </div>
+          </div>
+          <img
+            alt="Rectangle71143"
+            src="../../bin/rectangle71143-0wo-400h.png"
+            class="home-page-ar-rectangle7"
+          />
+          <div class="home-page-ar-part2">
+            <span class="home-page-ar-text051">
+              <span class="home-page-ar-text052">
+                <span>معلومات عنا</span>
+                <br />
+                <span></span>
+                <br />
+                <span></span>
+              </span>
+              <span>
+                عالم البرمجة هي شركة عالمية تقدم معسكرات تدريب وألعاب. ونحن نسعى
+                جاهدين لجعل دوراتنا في متناول الجميع وتعزيز التعلم والتعاون. نحن
+                نقدم مجموعة واسعة من الدورات لجميع المستويات، من المبتدئين إلى
+                الخبراء. هدفنا هو تمكين الأشخاص ليصبحوا خبراء تقنيين ومساعدتهم
+                على خلق مستقبل أفضل. نحن نؤمن بأنه يجب أن يحصل الجميع على تعليم
+                جيد، وقد تم تصميم دوراتنا لمساعدة الأشخاص على تحقيق أهدافهم. نحن
+                نسعى جاهدين لخلق بيئة شاملة ومتنوعة تشجع التعاون والإبداع وحل
+                المشكلات. تم تصميم دوراتنا لمساعدة الأشخاص على التعلم بطريقة
+                ممتعة وتفاعلية.
+              </span>
+            </span>
+            <img
+              alt="Rectangle81143"
+              src="../../bin/rectangle81143-2kan-300h.png"
+              class="home-page-ar-rectangle8"
+            />
+            <img
+              alt="Rectangle71143"
+              src=../../bin/rectangle71143-shby-200h.png"
+              class="home-page-ar-rectangle71"
+            />
+            <a href="aboutus-ar.html" class="home-page-ar-text059">
+              <span>إكتشف أكثر</span>
+            </a>
+          </div>
+          <div class="home-page-ar-main-menu">
+            <div class="home-page-ar-center-menu1">
+              <span class="home-page-ar-text061">
+                <span>
+                  <span>المعسكرات التدريبية</span>
+                  <br />
+                  <span></span>
+                </span>
+              </span>
+              <span class="home-page-ar-text066"><span>العاب</span></span>
+              <a href="aboutus-ar.html" class="home-page-ar-text068">
+                <span>معلومات</span>
+              </a>
+              <a href="support-ar.html" class="home-page-ar-text070">
+                <span>الدعم</span>
+              </a>
+              <a href="careers-ar.html" class="home-page-ar-text072">
+                <span>وظائف</span>
+              </a>
+              <a href="our-partners-ar.html" class="home-page-ar-text074">
+                <span>شركائنا</span>
+              </a>
+              <span class="home-page-ar-text076"><span>اللغة</span></span>
+            </div>
+            <div class="home-page-ar-login">
+              <a href="login-ar.html" class="home-page-ar-text078">
+                <span>دخول</span>
+              </a>
+            </div>
+            <a href="home-page-ar.html" class="home-page-ar-text080">
+              <span>عالم البرمجة</span>
+            </a>
+          </div>
+          <div class="home-page-ar-footer">
+            <div class="home-page-ar-down-menu">
+              <div class="home-page-ar-box12">
+                <span class="home-page-ar-text082">
+                  <span>روابط سريعة</span>
+                </span>
+                <img
+                  alt="Line11203"
+                  src="../../bin/line11203-siji.svg"
+                  class="home-page-ar-line1"
+                />
+                <a href="home-page-ar.html" class="home-page-ar-text084">
+                  <span>الصفحة الرئيسية</span>
+                </a>
+                <span class="home-page-ar-text086"><span>معسكرات</span></span>
+                <span class="home-page-ar-text088"><span>العاب</span></span>
+                <a href="careers-ar.html" class="home-page-ar-text090">
+                  <span>وظائف</span>
+                </a>
+              </div>
+              <div class="home-page-ar-box22">
+                <img
+                  alt="Line21203"
+                  src="../../bin/line21203-17cg.svg"
+                  class="home-page-ar-line2"
+                />
+                <span class="home-page-ar-text092"><span>تصفح</span></span>
+                <a href="aboutus-ar.html" class="home-page-ar-text094">
+                  <span>معلومات</span>
+                </a>
+                <a href="support-ar.html" class="home-page-ar-text096">
+                  <span>الدعم</span>
+                </a>
+                <a href="our-partners-ar.html" class="home-page-ar-text098">
+                  <span>شركائنا</span>
+                </a>
+              </div>
+              <span class="home-page-ar-text100">
+                <span>© 2023 جميع الحقوق محفوظة. عالم البرمجة</span>
+              </span>
+              <div class="home-page-ar-box32">
+                <span class="home-page-ar-text102">
+                  <span>تواصل معنا</span>
+                </span>
+                <img
+                  alt="Line21203"
+                  src="../../bin/line21203-z1mu.svg"
+                  class="home-page-ar-line21"
+                />
+                <span class="home-page-ar-text104"><span>انستقرام</span></span>
+                <span class="home-page-ar-text106"><span>تويتر</span></span>
+                <span class="home-page-ar-text108"><span>ديسكورد</span></span>
+                <span class="home-page-ar-text110"><span>لينكدين</span></span>
+              </div>
+              <div class="home-page-ar-newsletter">
+                <input type="text" class="home-page-ar-textinput input" />
+                <span class="home-page-ar-text112">
+                  <span>اشترك في صحيفتنا الإخبارية</span>
+                </span>
+                <img
+                  alt="Rectangle111203"
+                  src="../../bin/rectangle111203-iu-200h.png"
+                  class="home-page-ar-rectangle11"
+                />
+                <span class="home-page-ar-text114"><span>اشترك</span></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
