@@ -1,0 +1,1267 @@
+.bootcamp-ar-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.bootcamp-ar-bootcamp-ar {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.bootcamp-ar-rectangle35 {
+  top: 104px;
+  left: 0px;
+  width: 1700px;
+  height: 920px;
+  position: absolute;
+}
+.bootcamp-ar-rectangle36 {
+  top: 104px;
+  right: 0;
+  width: 254px;
+  height: 920px;
+  position: absolute;
+}
+.bootcamp-ar-rectangle37 {
+  top: 104px;
+  left: 0px;
+  width: 90px;
+  height: 920px;
+  position: absolute;
+}
+.bootcamp-ar-rectangle38 {
+  top: 155px;
+  left: 144px;
+  width: 1462px;
+  height: 63px;
+  position: absolute;
+}
+.bootcamp-ar-top-menu {
+  top: 167px;
+  left: 400px;
+  width: 927px;
+  height: 38px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bootcamp-ar-text {
+  top: 9px;
+  color: rgba(0, 0, 0, 1);
+  width: 109px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text01 {
+  font-weight: 700;
+}
+.bootcamp-ar-text03 {
+  top: 9px;
+  left: 204px;
+  color: rgba(0, 0, 0, 1);
+  width: 76px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text04 {
+  font-weight: 700;
+}
+.bootcamp-ar-text06 {
+  top: 9px;
+  left: 391px;
+  color: rgba(0, 0, 0, 1);
+  width: 107px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text07 {
+  font-weight: 700;
+}
+.bootcamp-ar-text09 {
+  top: 9px;
+  left: 595px;
+  color: rgba(0, 0, 0, 1);
+  width: 117px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text10 {
+  font-weight: 700;
+}
+.bootcamp-ar-rectangle39 {
+  top: 0px;
+  left: 796px;
+  width: 131px;
+  height: 38px;
+  position: absolute;
+  border-radius: 5px;
+}
+.bootcamp-ar-text11 {
+  top: 8px;
+  left: 818px;
+  color: rgba(11, 34, 67, 1);
+  width: 87px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle40 {
+  top: 246px;
+  left: 144px;
+  width: 1462px;
+  height: 332px;
+  position: absolute;
+}
+.bootcamp-ar-second-menu {
+  top: 265px;
+  left: 600px;
+  width: 478px;
+  height: 275px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bootcamp-ar-text13 {
+  left: 165px;
+  color: rgba(0, 0, 0, 1);
+  width: 147px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle42 {
+  top: 44px;
+  left: 0px;
+  width: 478px;
+  height: 231px;
+  position: absolute;
+}
+.bootcamp-ar-rectangle43 {
+  top: 606px;
+  left: 144px;
+  width: 1462px;
+  height: 169px;
+  position: absolute;
+}
+.bootcamp-ar-main-menu {
+  top: 36px;
+  left: 81px;
+  width: 1313px;
+  height: 26px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bootcamp-ar-text15 {
+  left: 656px;
+  color: rgba(0, 0, 0, 1);
+  width: 70px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text17 {
+  left: 829px;
+  color: rgba(0, 0, 0, 1);
+  width: 83px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text19 {
+  top: 1px;
+  left: 1440px;
+  color: rgba(0, 0, 0, 1);
+  width: 118px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text20 {
+  font-weight: 700;
+}
+.bootcamp-ar-text22 {
+  top: 1px;
+  left: 520px;
+  color: rgba(0, 0, 0, 1);
+  width: 37px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text24 {
+  color: rgba(11, 34, 67, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text26 {
+  left: 206px;
+  color: rgba(0, 0, 0, 1);
+  width: 64px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text28 {
+  left: 374px;
+  color: rgba(0, 0, 0, 1);
+  width: 50px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-right-menu {
+  top: 132px;
+  right: 10px;
+  width: 200px;
+  height: 557px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bootcamp-ar-text30 {
+  top: 269px;
+  left: 66px;
+  color: rgba(255, 255, 255, 1);
+  width: 67px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-css {
+  top: 319px;
+  left: 0px;
+  width: 186px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bootcamp-ar-text32 {
+  color: rgba(255, 255, 255, 1);
+  width: 30px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle401 {
+  top: 4px;
+  left: 34px;
+  width: 152px;
+  height: 10px;
+  position: absolute;
+}
+.bootcamp-ar-rectangle41 {
+  top: 4px;
+  left: 34px;
+  width: 93px;
+  height: 10px;
+  position: absolute;
+}
+.bootcamp-ar-text34 {
+  top: 1px;
+  left: 163px;
+  color: rgba(0, 0, 0, 1);
+  width: 21px;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-java-script {
+  top: 336px;
+  left: 0px;
+  width: 186px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bootcamp-ar-text36 {
+  color: rgba(255, 255, 255, 1);
+  width: 12px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle402 {
+  top: 4px;
+  left: 34px;
+  width: 152px;
+  height: 10px;
+  position: absolute;
+}
+.bootcamp-ar-rectangle411 {
+  top: 4px;
+  left: 34px;
+  width: 73px;
+  height: 10px;
+  position: absolute;
+}
+.bootcamp-ar-text38 {
+  top: 1px;
+  left: 163px;
+  color: rgba(0, 0, 0, 1);
+  width: 21px;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-react {
+  top: 353px;
+  left: 0px;
+  width: 186px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bootcamp-ar-text40 {
+  color: rgba(255, 255, 255, 1);
+  width: 26px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle403 {
+  top: 4px;
+  left: 34px;
+  width: 152px;
+  height: 10px;
+  position: absolute;
+}
+.bootcamp-ar-rectangle412 {
+  top: 4px;
+  left: 34px;
+  width: 152px;
+  height: 10px;
+  position: absolute;
+}
+.bootcamp-ar-text42 {
+  top: 1px;
+  left: 162px;
+  color: rgba(0, 0, 0, 1);
+  width: 24px;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-oop {
+  top: 370px;
+  left: 0px;
+  width: 186px;
+  height: 14px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bootcamp-ar-text44 {
+  color: rgba(255, 255, 255, 1);
+  width: 30px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle404 {
+  top: 4px;
+  left: 34px;
+  width: 152px;
+  height: 10px;
+  position: absolute;
+}
+.bootcamp-ar-text46 {
+  top: 1px;
+  left: 166px;
+  color: rgba(0, 0, 0, 1);
+  width: 16px;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-line8 {
+  top: 408px;
+  left: 0px;
+  width: 200px;
+  height: 1px;
+  position: absolute;
+}
+.bootcamp-ar-text48 {
+  top: 422px;
+  color: rgba(255, 255, 255, 1);
+  width: 131px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text49 {
+  font-weight: 700;
+}
+.bootcamp-ar-text51 {
+  top: 453px;
+  color: rgba(255, 255, 255, 1);
+  width: 125px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text52 {
+  font-weight: 700;
+}
+.bootcamp-ar-text53 {
+  font-weight: 400;
+}
+.bootcamp-ar-text54 {
+  top: 483px;
+  color: rgba(255, 255, 255, 1);
+  width: 133px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text55 {
+  font-weight: 700;
+}
+.bootcamp-ar-line9 {
+  top: 524px;
+  left: 0px;
+  width: 195px;
+  height: 1px;
+  position: absolute;
+}
+.bootcamp-ar-text56 {
+  top: 538px;
+  color: rgba(255, 255, 255, 1);
+  width: 163px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text57 {
+  font-weight: 700;
+}
+.bootcamp-ar-line7 {
+  top: 251px;
+  left: 0px;
+  width: 200px;
+  height: 1px;
+  position: absolute;
+}
+.bootcamp-ar-text59 {
+  top: 179px;
+  left: 52px;
+  color: rgba(255, 255, 255, 1);
+  width: 101px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text61 {
+  top: 208px;
+  left: 45px;
+  color: rgba(255, 255, 255, 1);
+  width: 108px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle413 {
+  top: 0px;
+  left: 38px;
+  width: 129px;
+  height: 173px;
+  position: absolute;
+}
+.bootcamp-ar-html {
+  top: 302px;
+  left: 0px;
+  width: 186px;
+  height: 15px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bootcamp-ar-text63 {
+  color: rgba(255, 255, 255, 1);
+  width: 30px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle405 {
+  top: 4px;
+  left: 34px;
+  width: 152px;
+  height: 10px;
+  position: absolute;
+}
+.bootcamp-ar-rectangle414 {
+  top: 4px;
+  left: 34px;
+  width: 123px;
+  height: 10px;
+  position: absolute;
+}
+.bootcamp-ar-text65 {
+  top: 1px;
+  left: 163px;
+  color: rgba(0, 0, 0, 1);
+  width: 21px;
+  height: auto;
+  position: absolute;
+  font-size: 10px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-cureent-season {
+  top: 624px;
+  left: 176px;
+  width: 290px;
+  height: 124px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bootcamp-ar-seaeon22 {
+  top: 32px;
+  left: 0px;
+  width: 290px;
+  height: 39px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(188, 46, 46, 1);
+}
+.bootcamp-ar-text67 {
+  top: 9px;
+  left: 23px;
+  color: rgba(255, 255, 255, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle45 {
+  top: 9px;
+  left: 213px;
+  width: 62px;
+  height: 21px;
+  position: absolute;
+}
+.bootcamp-ar-text69 {
+  top: 9px;
+  left: 230px;
+  color: rgba(0, 0, 0, 1);
+  width: 33px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-seaeon23 {
+  top: 85px;
+  left: 0px;
+  width: 290px;
+  height: 39px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(188, 46, 46, 1);
+}
+.bootcamp-ar-text71 {
+  top: 9px;
+  left: 23px;
+  color: rgba(255, 255, 255, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle451 {
+  top: 9px;
+  left: 213px;
+  width: 62px;
+  height: 21px;
+  position: absolute;
+}
+.bootcamp-ar-text73 {
+  top: 9px;
+  left: 230px;
+  color: rgba(0, 0, 0, 1);
+  width: 33px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text75 {
+  color: rgba(0, 0, 0, 1);
+  width: 143px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle46 {
+  top: 798px;
+  left: 140px;
+  width: 1462px;
+  height: 175px;
+  position: absolute;
+}
+.bootcamp-ar-pre-season {
+  top: 814px;
+  left: 174px;
+  width: 628px;
+  height: 127px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.bootcamp-ar-pre-season1 {
+  top: 35px;
+  left: 0px;
+  width: 290px;
+  height: 39px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(8, 111, 0, 1);
+}
+.bootcamp-ar-text77 {
+  top: 9px;
+  left: 23px;
+  color: rgba(255, 255, 255, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle452 {
+  top: 9px;
+  left: 213px;
+  width: 62px;
+  height: 21px;
+  position: absolute;
+}
+.bootcamp-ar-text79 {
+  top: 9px;
+  left: 230px;
+  color: rgba(0, 0, 0, 1);
+  width: 33px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-season11 {
+  top: 88px;
+  left: 0px;
+  width: 290px;
+  height: 39px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(8, 111, 0, 1);
+}
+.bootcamp-ar-text81 {
+  top: 9px;
+  left: 23px;
+  color: rgba(255, 255, 255, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle453 {
+  top: 9px;
+  left: 213px;
+  width: 62px;
+  height: 21px;
+  position: absolute;
+}
+.bootcamp-ar-text83 {
+  top: 9px;
+  left: 230px;
+  color: rgba(0, 0, 0, 1);
+  width: 33px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-season12 {
+  top: 35px;
+  left: 338px;
+  width: 290px;
+  height: 39px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(8, 111, 0, 1);
+}
+.bootcamp-ar-text85 {
+  top: 9px;
+  left: 23px;
+  color: rgba(255, 255, 255, 1);
+  width: 121px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle454 {
+  top: 9px;
+  left: 213px;
+  width: 62px;
+  height: 21px;
+  position: absolute;
+}
+.bootcamp-ar-text87 {
+  top: 9px;
+  left: 230px;
+  color: rgba(0, 0, 0, 1);
+  width: 33px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-season121 {
+  top: 88px;
+  left: 338px;
+  width: 290px;
+  height: 39px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(8, 111, 0, 1);
+}
+.bootcamp-ar-text89 {
+  top: 9px;
+  left: 23px;
+  color: rgba(255, 255, 255, 1);
+  width: 140px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-rectangle455 {
+  top: 9px;
+  left: 213px;
+  width: 62px;
+  height: 21px;
+  position: absolute;
+}
+.bootcamp-ar-text91 {
+  top: 9px;
+  left: 230px;
+  color: rgba(0, 0, 0, 1);
+  width: 33px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Oswald;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.bootcamp-ar-text93 {
+  left: 2px;
+  color: rgba(0, 0, 0, 1);
+  width: 113px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .bootcamp-ar-rectangle38 {
+    width: 1150px;
+  }
+  .bootcamp-ar-top-menu {
+    left: 250px;
+    position: absolute;
+  }
+  .bootcamp-ar-rectangle40 {
+    width: 1150px;
+  }
+  .bootcamp-ar-second-menu {
+    left: 450px;
+    position: absolute;
+  }
+  .bootcamp-ar-rectangle43 {
+    width: 1150px;
+  }
+  .bootcamp-ar-text19 {
+    left: 1300px;
+    position: absolute;
+  }
+  .bootcamp-ar-rectangle46 {
+    width: 1150px;
+  }
+}
+@media(max-width: 1200px) {
+  .bootcamp-ar-rectangle38 {
+    width: 750px;
+  }
+  .bootcamp-ar-top-menu {
+    left: 160px;
+    position: absolute;
+  }
+  .bootcamp-ar-text03 {
+    left: 180px;
+    position: absolute;
+  }
+  .bootcamp-ar-text06 {
+    left: 340px;
+    position: absolute;
+  }
+  .bootcamp-ar-text09 {
+    left: 490px;
+    position: absolute;
+  }
+  .bootcamp-ar-rectangle39 {
+    left: 620px;
+    width: 100px;
+    position: absolute;
+  }
+  .bootcamp-ar-text11 {
+    left: 630px;
+    position: absolute;
+  }
+  .bootcamp-ar-rectangle40 {
+    width: 750px;
+  }
+  .bootcamp-ar-second-menu {
+    left: 300px;
+    position: absolute;
+  }
+  .bootcamp-ar-rectangle43 {
+    width: 750px;
+  }
+  .bootcamp-ar-text19 {
+    left: 1000px;
+    position: absolute;
+  }
+  .bootcamp-ar-rectangle46 {
+    width: 750px;
+  }
+}
+@media(max-width: 991px) {
+  .bootcamp-ar-rectangle38 {
+    width: 550px;
+  }
+  .bootcamp-ar-text03 {
+    left: 130px;
+    position: absolute;
+  }
+  .bootcamp-ar-text06 {
+    left: 220px;
+    position: absolute;
+  }
+  .bootcamp-ar-text09 {
+    left: 320px;
+    position: absolute;
+  }
+  .bootcamp-ar-rectangle39 {
+    left: 435px;
+    width: 90px;
+    position: absolute;
+  }
+  .bootcamp-ar-text11 {
+    left: 440px;
+    position: absolute;
+  }
+  .bootcamp-ar-rectangle40 {
+    width: 550px;
+  }
+  .bootcamp-ar-second-menu {
+    left: 170px;
+    position: absolute;
+  }
+  .bootcamp-ar-rectangle43 {
+    width: 550px;
+  }
+  .bootcamp-ar-cureent-season {
+    left: 150px;
+    position: absolute;
+  }
+  .bootcamp-ar-rectangle46 {
+    width: 550px;
+  }
+  .bootcamp-ar-pre-season {
+    left: 150px;
+    position: absolute;
+  }
+  .bootcamp-ar-pre-season1 {
+    width: 250px;
+  }
+  .bootcamp-ar-rectangle452 {
+    left: 180px;
+    position: absolute;
+  }
+  .bootcamp-ar-text79 {
+    left: 200px;
+    position: absolute;
+  }
+  .bootcamp-ar-season11 {
+    width: 250px;
+  }
+  .bootcamp-ar-rectangle453 {
+    left: 180px;
+    position: absolute;
+  }
+  .bootcamp-ar-text83 {
+    left: 200px;
+    position: absolute;
+  }
+  .bootcamp-ar-season12 {
+    left: 275px;
+    width: 250px;
+    position: absolute;
+  }
+  .bootcamp-ar-rectangle454 {
+    left: 180px;
+    position: absolute;
+  }
+  .bootcamp-ar-text87 {
+    left: 200px;
+    position: absolute;
+  }
+  .bootcamp-ar-season121 {
+    left: 275px;
+    width: 250px;
+    position: absolute;
+  }
+  .bootcamp-ar-rectangle455 {
+    left: 180px;
+    position: absolute;
+  }
+  .bootcamp-ar-text91 {
+    left: 200px;
+    position: absolute;
+  }
+}
