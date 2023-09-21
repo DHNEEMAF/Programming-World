@@ -1,0 +1,246 @@
+.support-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.support-support {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.support-form {
+  top: 197px;
+  left: 500px;
+  width: 880px;
+  height: 630px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(126, 189, 194, 1);
+}
+.support-text {
+  top: 22px;
+  left: 103px;
+  color: rgba(255, 255, 255, 1);
+  width: 673px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.support-username {
+  top: 90px;
+  left: 103px;
+  width: 639px;
+  height: 49px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 1;
+  justify-content: flex-start;
+}
+.support-text05 {
+  top: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 76px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.support-textinput {
+  width: 639px;
+  height: 23px;
+  position: absolute;
+  border-width: 0px;
+  background-color: white;
+}
+.support-email {
+  top: 159px;
+  left: 103px;
+  width: 639px;
+  height: 49px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.support-text07 {
+  color: rgba(255, 255, 255, 1);
+  width: 76px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.support-textinput1 {
+  width: 639px;
+  bottom: 0px;
+  height: 23px;
+  position: absolute;
+  border-width: 0px;
+  background-color: white;
+}
+.support-subject {
+  top: 228px;
+  left: 103px;
+  width: 639px;
+  height: 49px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.support-text09 {
+  color: rgba(255, 255, 255, 1);
+  width: 76px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.support-textinput2 {
+  width: 639px;
+  bottom: 0px;
+  height: 23px;
+  position: absolute;
+  border-width: 0px;
+  background-color: white;
+}
+.support-subject1 {
+  top: 297px;
+  left: 103px;
+  width: 639px;
+  height: 226px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 1;
+  justify-content: flex-start;
+}
+.support-text11 {
+  top: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 76px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.support-textarea {
+  width: 639px;
+  height: 200px;
+  border-width: 0px;
+}
+.support-rectangle17 {
+  top: 555px;
+  left: 103px;
+  width: 639px;
+  height: 42px;
+  position: absolute;
+}
+.support-text13 {
+  top: 566px;
+  left: 408px;
+  color: rgba(255, 255, 255, 1);
+  width: 63px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .support-form {
+    left: 350px;
+    position: absolute;
+  }
+}
+@media(max-width: 1200px) {
+  .support-form {
+    left: 180px;
+    position: absolute;
+  }
+}
+@media(max-width: 991px) {
+  .support-form {
+    left: 60px;
+    position: absolute;
+  }
+}
+@media(max-width: 767px) {
+  .support-form {
+    left: 28px;
+    width: 720px;
+    position: absolute;
+  }
+  .support-username {
+    left: 70px;
+    position: absolute;
+  }
+  .support-email {
+    left: 70px;
+    position: absolute;
+  }
+  .support-subject {
+    left: 70px;
+    position: absolute;
+  }
+  .support-subject1 {
+    left: 70px;
+    position: absolute;
+  }
+  .support-rectangle17 {
+    left: 70px;
+    width: 600px;
+    position: absolute;
+  }
+  .support-text13 {
+    left: 350px;
+    position: absolute;
+  }
+}
