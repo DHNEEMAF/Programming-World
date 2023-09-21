@@ -1,0 +1,1285 @@
+.software-engineering-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.software-engineering-software-engineering {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.software-engineering-footer {
+  top: 821px;
+  left: 0px;
+  width: 100%;
+  height: 203px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(11, 34, 67, 1);
+}
+.software-engineering-down-menu {
+  top: 31px;
+  left: 200px;
+  width: 1316px;
+  height: 161px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.software-engineering-box1 {
+  top: 0px;
+  left: 0px;
+  width: 120px;
+  height: 131px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.software-engineering-text {
+  color: rgba(255, 255, 255, 1);
+  width: 106px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-line1 {
+  top: 30px;
+  left: 0px;
+  width: 120px;
+  height: 1px;
+  position: absolute;
+}
+.software-engineering-text005 {
+  top: 38px;
+  left: 2px;
+  color: rgba(255, 255, 255, 1);
+  width: 46px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text007 {
+  top: 64px;
+  left: 2px;
+  color: rgba(255, 255, 255, 1);
+  width: 69px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text009 {
+  top: 90px;
+  left: 2px;
+  color: rgba(255, 255, 255, 1);
+  width: 43px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text011 {
+  top: 115px;
+  left: 2px;
+  color: rgba(255, 255, 255, 1);
+  width: 48px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-box2 {
+  top: 0px;
+  left: 284px;
+  width: 120px;
+  height: 107px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.software-engineering-line2 {
+  top: 30px;
+  left: 0px;
+  width: 120px;
+  height: 1px;
+  position: absolute;
+}
+.software-engineering-text013 {
+  color: rgba(255, 255, 255, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text015 {
+  top: 38px;
+  color: rgba(255, 255, 255, 1);
+  width: 56px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text017 {
+  top: 64px;
+  color: rgba(255, 255, 255, 1);
+  width: 51px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text019 {
+  top: 90px;
+  color: rgba(255, 255, 255, 1);
+  width: 78px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text021 {
+  top: 137px;
+  left: 550px;
+  color: rgba(255, 255, 255, 1);
+  width: 386px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-box3 {
+  top: 0px;
+  left: 1050px;
+  width: 120.00000762939453px;
+  height: 129.44444465637207px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.software-engineering-text026 {
+  top: 0px;
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 90px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-line21 {
+  top: 30px;
+  left: 0px;
+  width: 120px;
+  height: 1px;
+  position: absolute;
+}
+.software-engineering-text028 {
+  top: 37.98614501953125px;
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 66px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text030 {
+  top: 63.99310302734375px;
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 57px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text032 {
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 46px;
+  bottom: 27.01385498046875px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text034 {
+  left: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 55px;
+  bottom: 0px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-newsletter {
+  top: 37px;
+  left: 1400px;
+  width: 168px;
+  height: 70px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.software-engineering-text036 {
+  top: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 168px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-textinput {
+  width: 166px;
+  height: 36px;
+  position: absolute;
+  border-width: 0px;
+}
+.software-engineering-rectangle11 {
+  right: 0px;
+  width: 45px;
+  bottom: 0px;
+  height: 36px;
+  position: absolute;
+}
+.software-engineering-text041 {
+  top: 44px;
+  left: 132px;
+  color: rgba(0, 0, 0, 1);
+  width: 30px;
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-main-menu {
+  top: 17px;
+  left: 200px;
+  width: 1362px;
+  height: 49px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.software-engineering-center-menu {
+  top: 14px;
+  left: 250px;
+  width: 884px;
+  height: 21px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.software-engineering-text043 {
+  color: rgba(0, 0, 0, 1);
+  width: 77px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text045 {
+  left: 130px;
+  color: rgba(0, 0, 0, 1);
+  width: 53px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text047 {
+  left: 254px;
+  color: rgba(0, 0, 0, 1);
+  width: 64px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text049 {
+  left: 390px;
+  color: rgba(0, 0, 0, 1);
+  width: 59px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text051 {
+  left: 520px;
+  color: rgba(0, 0, 0, 1);
+  width: 54px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text053 {
+  left: 650px;
+  color: rgba(0, 0, 0, 1);
+  width: 87px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text055 {
+  left: 813px;
+  color: rgba(0, 0, 0, 1);
+  width: 71px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-login {
+  top: 0px;
+  left: 1550px;
+  width: 80px;
+  height: 49px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(126, 189, 194, 1);
+}
+.software-engineering-text057 {
+  top: 15px;
+  left: 20px;
+  color: rgba(255, 255, 255, 1);
+  width: 40px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text059 {
+  top: 13px;
+  left: -100px;
+  color: rgba(11, 34, 67, 1);
+  width: 163px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-rectangle12 {
+  top: 71px;
+  left: 0px;
+  width: 100%;
+  height: 361px;
+  position: absolute;
+}
+.software-engineering-top-menu {
+  top: 99px;
+  left: 500px;
+  width: 1149px;
+  height: 292px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.software-engineering-text061 {
+  left: 350px;
+  color: rgba(11, 34, 67, 1);
+  width: 173px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-learn {
+  top: 81px;
+  left: 0px;
+  width: 223px;
+  height: 125px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.software-engineering-text063 {
+  left: 3px;
+  color: rgba(11, 34, 67, 1);
+  width: 154px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text065 {
+  top: 30px;
+  color: rgba(11, 34, 67, 1);
+  width: 80px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text066 {
+  top: 30px;
+  left: 112px;
+  color: rgba(11, 34, 67, 1);
+  width: 80px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text068 {
+  top: 65px;
+  left: 112px;
+  color: rgba(11, 34, 67, 1);
+  width: 111px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text070 {
+  top: 65px;
+  color: rgba(11, 34, 67, 1);
+  width: 80px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text072 {
+  top: 100px;
+  color: rgba(11, 34, 67, 1);
+  width: 80px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-have {
+  top: 81px;
+  left: 327px;
+  width: 198px;
+  height: 209px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.software-engineering-text074 {
+  color: rgba(11, 34, 67, 1);
+  width: 145px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text076 {
+  top: 30px;
+  color: rgba(11, 34, 67, 1);
+  width: 198px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text078 {
+  top: 65px;
+  color: rgba(11, 34, 67, 1);
+  width: 125px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text080 {
+  top: 100px;
+  color: rgba(11, 34, 67, 1);
+  width: 125px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text082 {
+  top: 135px;
+  color: rgba(11, 34, 67, 1);
+  width: 125px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text084 {
+  top: 170px;
+  color: rgba(11, 34, 67, 1);
+  width: 196px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-application {
+  top: 81px;
+  left: 776px;
+  width: 312px;
+  height: 126px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.software-engineering-text086 {
+  color: rgba(11, 34, 67, 1);
+  width: 165px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text091 {
+  top: 30px;
+  left: 9px;
+  color: rgba(11, 34, 67, 1);
+  width: 216px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text093 {
+  top: 65px;
+  left: 9px;
+  color: rgba(11, 34, 67, 1);
+  width: 257px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text095 {
+  top: 100px;
+  left: 9px;
+  color: rgba(11, 34, 67, 1);
+  width: 303px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-boxes {
+  top: 489px;
+  left: 550px;
+  width: 797px;
+  height: 217px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.software-engineering-box11 {
+  top: 0px;
+  left: 0px;
+  width: 189px;
+  height: 217px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(126, 189, 194, 1);
+}
+.software-engineering-text097 {
+  top: 11px;
+  left: 51px;
+  color: rgba(255, 255, 255, 1);
+  width: 87px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-ellipse2 {
+  top: 50px;
+  left: 51px;
+  width: 81px;
+  height: 77px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+}
+.software-engineering-text099 {
+  top: 65px;
+  left: 66px;
+  color: rgb(11, 34, 67);
+  width: 58px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text102 {
+  font-size: 16px;
+}
+.software-engineering-text103 {
+  top: 141px;
+  left: 61px;
+  color: rgba(255, 255, 255, 1);
+  width: 62px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-rectangle25 {
+  top: 175px;
+  left: 51px;
+  width: 80px;
+  height: 26px;
+  position: absolute;
+  border-radius: 5px;
+}
+.software-engineering-text105 {
+  top: 177px;
+  left: 71px;
+  color: rgba(255, 255, 255, 1);
+  width: 48px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-box21 {
+  top: 0px;
+  left: 304px;
+  width: 189px;
+  height: 217px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(126, 189, 194, 1);
+}
+.software-engineering-text107 {
+  top: 11px;
+  left: 42px;
+  color: rgba(255, 255, 255, 1);
+  width: 106px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-ellipse21 {
+  top: 50px;
+  left: 51px;
+  width: 81px;
+  height: 77px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+}
+.software-engineering-text109 {
+  top: 65px;
+  left: 66px;
+  color: rgb(11, 34, 67);
+  width: 58px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text112 {
+  font-size: 16px;
+}
+.software-engineering-text113 {
+  top: 141px;
+  left: 61px;
+  color: rgba(255, 255, 255, 1);
+  width: 70px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-rectangle251 {
+  top: 175px;
+  left: 51px;
+  width: 80px;
+  height: 26px;
+  position: absolute;
+  border-radius: 5px;
+}
+.software-engineering-text115 {
+  top: 177px;
+  left: 71px;
+  color: rgba(255, 255, 255, 1);
+  width: 48px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-box31 {
+  top: 0px;
+  left: 608px;
+  width: 189px;
+  height: 217px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(126, 189, 194, 1);
+}
+.software-engineering-text117 {
+  top: 11px;
+  left: 42px;
+  color: rgba(255, 255, 255, 1);
+  width: 113px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-ellipse22 {
+  top: 50px;
+  left: 51px;
+  width: 81px;
+  height: 77px;
+  position: absolute;
+  border-color: rgba(255, 255, 255, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 50px;
+}
+.software-engineering-text119 {
+  top: 65px;
+  left: 66px;
+  color: rgb(11, 34, 67);
+  width: 58px;
+  height: auto;
+  position: absolute;
+  font-size: 24px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-text122 {
+  font-size: 16px;
+}
+.software-engineering-text123 {
+  top: 141px;
+  left: 61px;
+  color: rgba(255, 255, 255, 1);
+  width: 70px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.software-engineering-rectangle252 {
+  top: 175px;
+  left: 51px;
+  width: 80px;
+  height: 26px;
+  position: absolute;
+  border-radius: 5px;
+}
+.software-engineering-text125 {
+  top: 177px;
+  left: 71px;
+  color: rgba(255, 255, 255, 1);
+  width: 48px;
+  height: auto;
+  position: absolute;
+  font-size: 15px;
+  font-style: Medium;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .software-engineering-text021 {
+    left: 450px;
+    position: absolute;
+  }
+  .software-engineering-box3 {
+    left: 900px;
+    position: absolute;
+  }
+  .software-engineering-newsletter {
+    left: 1100px;
+    position: absolute;
+  }
+  .software-engineering-main-menu {
+    left: 100px;
+    position: absolute;
+  }
+  .software-engineering-center-menu {
+    left: 150px;
+    position: absolute;
+  }
+  .software-engineering-login {
+    left: 1250px;
+    position: absolute;
+  }
+  .software-engineering-top-menu {
+    left: 350px;
+    position: absolute;
+  }
+  .software-engineering-boxes {
+    left: 400px;
+    position: absolute;
+  }
+}
+@media(max-width: 1200px) {
+  .software-engineering-down-menu {
+    left: 10px;
+    position: absolute;
+  }
+  .software-engineering-box3 {
+    left: 850px;
+    position: absolute;
+  }
+  .software-engineering-newsletter {
+    left: 980px;
+    position: absolute;
+  }
+  .software-engineering-center-menu {
+    left: 70px;
+    position: absolute;
+  }
+  .software-engineering-login {
+    left: 1000px;
+    position: absolute;
+  }
+  .software-engineering-top-menu {
+    left: 10px;
+    position: absolute;
+  }
+  .software-engineering-boxes {
+    left: 210px;
+    position: absolute;
+  }
+}
+@media(max-width: 991px) {
+  .software-engineering-box2 {
+    left: 200px;
+    position: absolute;
+  }
+  .software-engineering-text021 {
+    left: 320px;
+    position: absolute;
+  }
+  .software-engineering-box3 {
+    left: 720px;
+    position: absolute;
+  }
+  .software-engineering-newsletter {
+    left: 810px;
+    position: absolute;
+  }
+  .software-engineering-main-menu {
+    left: 140;
+    position: absolute;
+  }
+  .software-engineering-center-menu {
+    left: 30px;
+    position: absolute;
+  }
+  .software-engineering-text045 {
+    left: 110px;
+    position: absolute;
+  }
+  .software-engineering-text047 {
+    left: 214px;
+    position: absolute;
+  }
+  .software-engineering-text049 {
+    left: 330px;
+    position: absolute;
+  }
+  .software-engineering-text051 {
+    left: 440px;
+    position: absolute;
+  }
+  .software-engineering-text053 {
+    left: 550px;
+    position: absolute;
+  }
+  .software-engineering-text055 {
+    left: 683px;
+    position: absolute;
+  }
+  .software-engineering-login {
+    left: 785px;
+    width: 60px;
+    position: absolute;
+  }
+  .software-engineering-text057 {
+    left: 10px;
+    position: absolute;
+  }
+  .software-engineering-text059 {
+    left: -140px;
+    position: absolute;
+  }
+  .software-engineering-application {
+    left: 650px;
+    position: absolute;
+  }
+  .software-engineering-boxes {
+    left: 120px;
+    position: absolute;
+  }
+}
