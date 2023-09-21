@@ -1,0 +1,266 @@
+.support-ar-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.support-ar-support-ar {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.support-ar-form {
+  top: 197px;
+  left: 500px;
+  width: 880px;
+  height: 630px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(126, 189, 194, 1);
+}
+.support-ar-text {
+  top: 17px;
+  left: 208px;
+  color: rgba(255, 255, 255, 1);
+  width: 464px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.support-ar-container1 {
+  flex: 0 0 auto;
+  width: 639px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.support-ar-container2 {
+  flex: 0 0 auto;
+  width: 639px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.support-ar-container3 {
+  flex: 0 0 auto;
+  width: 639px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.support-ar-username {
+  top: 90px;
+  left: 103px;
+  width: 639px;
+  height: 49px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.support-ar-text02 {
+  color: rgba(255, 255, 255, 1);
+  width: 96px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.support-ar-textinput {
+  top: 23px;
+  width: 639px;
+  height: 26px;
+  position: absolute;
+  border-width: 0px;
+  background-color: white;
+}
+.support-ar-email {
+  top: 159px;
+  left: 103px;
+  width: 639px;
+  height: 49px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.support-ar-text04 {
+  color: rgba(255, 255, 255, 1);
+  width: 84px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.support-ar-textinput1 {
+  top: 23px;
+  width: 639px;
+  height: 26px;
+  position: absolute;
+  border-width: 0px;
+  background-color: white;
+}
+.support-ar-subject {
+  top: 228px;
+  left: 103px;
+  width: 639px;
+  height: 49px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.support-ar-text06 {
+  color: rgba(255, 255, 255, 1);
+  width: 76px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.support-ar-textinput2 {
+  top: 23px;
+  width: 639px;
+  height: 26px;
+  position: absolute;
+  border-width: 0px;
+  background-color: white;
+}
+.support-ar-subject1 {
+  top: 297px;
+  left: 103px;
+  width: 639px;
+  height: 226px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  flex-shrink: 1;
+  justify-content: flex-start;
+}
+.support-ar-text08 {
+  top: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 76px;
+  height: auto;
+  position: absolute;
+  font-size: 14px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.support-ar-textarea {
+  width: 639px;
+  height: 200px;
+  border-width: 0px;
+}
+.support-ar-rectangle17 {
+  top: 555px;
+  left: 103px;
+  width: 639px;
+  height: 42px;
+  position: absolute;
+}
+.support-ar-text10 {
+  top: 566px;
+  left: 415px;
+  color: rgba(255, 255, 255, 1);
+  width: 49px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .support-ar-form {
+    left: 350px;
+    position: absolute;
+  }
+}
+@media(max-width: 1200px) {
+  .support-ar-form {
+    left: 180px;
+    position: absolute;
+  }
+}
+@media(max-width: 991px) {
+  .support-ar-form {
+    left: 60px;
+    position: absolute;
+  }
+}
+@media(max-width: 767px) {
+  .support-ar-form {
+    left: 28px;
+    width: 720px;
+    position: absolute;
+  }
+  .support-ar-username {
+    left: 70px;
+    position: absolute;
+  }
+  .support-ar-email {
+    left: 70px;
+    position: absolute;
+  }
+  .support-ar-subject {
+    left: 70px;
+    position: absolute;
+  }
+  .support-ar-subject1 {
+    left: 70px;
+    position: absolute;
+  }
+  .support-ar-rectangle17 {
+    left: 70px;
+    width: 600px;
+    position: absolute;
+  }
+  .support-ar-text10 {
+    left: 350px;
+    position: absolute;
+  }
+}
