@@ -1,0 +1,336 @@
+.apply-ar-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.apply-ar-apply-ar {
+  width: 100%;
+  height: 1024px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgba(255, 255, 255, 1);
+}
+.apply-ar-form {
+  top: 118px;
+  left: 550px;
+  width: 686px;
+  height: 789px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+  background-color: rgba(126, 189, 194, 1);
+}
+.apply-ar-text {
+  top: 23px;
+  left: 295px;
+  color: rgba(255, 255, 255, 1);
+  width: 96px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apply-ar-first-name {
+  top: 81px;
+  left: 72px;
+  width: 531px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 1;
+  justify-content: flex-start;
+}
+.apply-ar-text02 {
+  top: 0px;
+  color: rgba(255, 255, 255, 1);
+  width: 94px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apply-ar-textinput {
+  top: 26px;
+  width: 531px;
+  height: 29px;
+  position: absolute;
+  border-width: 0px;
+}
+.apply-ar-last-name {
+  top: 160px;
+  left: 72px;
+  width: 531px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.apply-ar-text04 {
+  color: rgba(255, 255, 255, 1);
+  width: 94px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apply-ar-textinput1 {
+  top: 26px;
+  width: 531px;
+  height: 29px;
+  position: absolute;
+  border-width: 0px;
+}
+.apply-ar-email {
+  top: 239px;
+  left: 72px;
+  width: 531px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.apply-ar-text06 {
+  color: rgba(255, 255, 255, 1);
+  width: 116px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apply-ar-textinput2 {
+  top: 26px;
+  width: 531px;
+  height: 29px;
+  position: absolute;
+  border-width: 0px;
+}
+.apply-ar-phone {
+  top: 318px;
+  left: 72px;
+  width: 531px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.apply-ar-text08 {
+  color: rgba(255, 255, 255, 1);
+  width: 119px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apply-ar-textinput3 {
+  top: 26px;
+  width: 531px;
+  height: 29px;
+  position: absolute;
+  border-width: 0px;
+}
+.apply-ar-country {
+  top: 397px;
+  left: 72px;
+  width: 531px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.apply-ar-text10 {
+  color: rgba(255, 255, 255, 1);
+  width: 119px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apply-ar-textinput4 {
+  top: 26px;
+  width: 531px;
+  height: 29px;
+  position: absolute;
+  border-width: 0px;
+}
+.apply-ar-country1 {
+  top: 476px;
+  left: 72px;
+  width: 531px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.apply-ar-text12 {
+  color: rgba(255, 255, 255, 1);
+  width: 299px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apply-ar-textinput5 {
+  top: 26px;
+  width: 531px;
+  height: 29px;
+  position: absolute;
+  border-width: 0px;
+}
+.apply-ar-country2 {
+  top: 555px;
+  left: 72px;
+  width: 531px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.apply-ar-text17 {
+  color: rgba(255, 255, 255, 1);
+  width: 299px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apply-ar-textinput6 {
+  top: 26px;
+  width: 531px;
+  height: 29px;
+  position: absolute;
+  border-width: 0px;
+}
+.apply-ar-country3 {
+  top: 634px;
+  left: 72px;
+  width: 531px;
+  height: 55px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.apply-ar-text19 {
+  color: rgba(255, 255, 255, 1);
+  width: 336px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.apply-ar-textinput7 {
+  top: 26px;
+  width: 531px;
+  height: 29px;
+  position: absolute;
+  border-width: 0px;
+}
+.apply-ar-rectangle28 {
+  top: 709px;
+  left: 179px;
+  width: 328px;
+  height: 46px;
+  position: absolute;
+}
+.apply-ar-text21 {
+  top: 721px;
+  left: 319px;
+  color: rgba(255, 255, 255, 1);
+  width: 48px;
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+@media(max-width: 1600px) {
+  .apply-ar-form {
+    left: 400px;
+    position: absolute;
+  }
+}
+@media(max-width: 1200px) {
+  .apply-ar-form {
+    left: 300px;
+    position: absolute;
+  }
+}
+@media(max-width: 991px) {
+  .apply-ar-form {
+    left: 150px;
+    position: absolute;
+  }
+}
